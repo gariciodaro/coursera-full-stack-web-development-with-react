@@ -1,5 +1,5 @@
-# Coursera: Front-End Web UI Frameworks and Tools: Bootstrap 4
-## Specialization: Full-Stack Web Development with React 
+# Course 1: Front-End Web UI Frameworks and Tools: Bootstrap 4
+## Ristorante conFunsion
 
 This repository contains the web page built during the lessons of the course. It will change as I move on the course.
 
