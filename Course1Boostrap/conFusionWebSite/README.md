@@ -1,7 +1,7 @@
-# Course 1: Front-End Web UI Frameworks and Tools: Bootstrap 4
-## Ristorante conFunsion
+# Ristorante conFunsion web site design.
 
-This repository contains the web page built during the lessons of the course. It will change as I move on the course.
+This repository contains the web page built during the lessons of the course. 
+It will change as I move on the course.
 
 ## Folder structure
 
