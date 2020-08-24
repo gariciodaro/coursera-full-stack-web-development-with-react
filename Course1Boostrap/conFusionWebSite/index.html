@@ -72,7 +72,6 @@
             </div>
         </div>
     </nav>
-
     <!--reservation modal-->
     <div id="reservationModal" class="modal fade" role="dialog">
         <div class="modal-dialog model-lg" role="content">
@@ -202,7 +201,6 @@
             </div>
         </div>
     </div>
-
     <!--login modal-->
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
@@ -240,6 +238,7 @@
             </div>
         </div>
     </div>
+    <!--jumbotron-->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -329,6 +328,14 @@
                     <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
+                    <div class="btn-group" id=carouselButton>
+                        <button class="btn btn-danger btn-sm" id="carousel-pause">
+                            <span class="fa fa-pause"></span>
+                        </button>
+                        <button class="btn btn-danger btn-sm" id="carousel-play">
+                            <span class="fa fa-play"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -475,6 +482,22 @@
     })
 </script>
 -->
+<!--2000 miliseconds or 2 s. 
+    Make the sliding of carousel faster.
+    On the event that the user click on the element carousel-pause
+    pause the carousel
+-->
+<script>
+    $(document).ready(function(){
+        $('#mycarousel').carousel({interval:2000})
+        $('#carousel-pause').click(function(){
+            $('#mycarousel').carousel('pause');
+        })
+        $('#carousel-play').click(function(){
+            $('#mycarousel').carousel('cycle');
+        })
+    })
+</script>
 </body>
 
 </html>
