@@ -2,3 +2,16 @@ npm install bootsrap@4.0.0 --save
 npm install jquery@3.3.1 popper.js@1.12.9 --save
 npm install font-awesome@4.7.0 --save
 npm install bootsrap-social@5.1.1 --save
+sudo npm install -g less@2.7.2
+    lessc styles.less sytles.css
+// install as a development dependency
+npm install --save-dev node-sass@4.7.2
+// the node-sass script is added to the package.json, where
+// we define that the origin scss is on css/ folder and the 
+// compiled output will be on the folder css/
+ "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  }
