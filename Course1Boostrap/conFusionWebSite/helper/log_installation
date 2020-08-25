@@ -15,3 +15,9 @@ npm install --save-dev node-sass@4.7.2
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/"
   }
+// i had to move from parallelshell@3.0.0 to parallelshell@3.0.1
+// since wouldnt work!.
+npm install --save-dev onchange@3.3.0 parallelshell@3.0.1
+// on package.json
+//"watch:scss": "onchange 'css/*.scss' -- npm run scss"
+// from "start": "npm run lite" to "start": "npm run watch:all"
