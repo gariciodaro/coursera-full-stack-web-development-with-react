@@ -21,3 +21,18 @@ npm install --save-dev onchange@3.3.0 parallelshell@3.0.1
 // on package.json
 //"watch:scss": "onchange 'css/*.scss' -- npm run scss"
 // from "start": "npm run lite" to "start": "npm run watch:all"
+
+// clean dist folder
+npm install --save-dev rimraf@2.6.2
+
+// to get font to dits
+ sudo npm -g install copyfiles@2.0.0
+
+ //sudo reduce image files to dist
+sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
+
+//Minimizaton of css concatenation of js 
+ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
+
+
+ imagemin-optipng npm WARN checkPermissions Missing write access 
